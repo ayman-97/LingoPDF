@@ -9,6 +9,14 @@ An intelligent, single-page web application designed to help students and resear
 *   **Contextual Translation Selection:** Specify the academic domain (Medical, Engineering, Legal, etc.) for accurate terminology.
 *   **AI Translation & Explanation:** Integration with Groq's high-speed API (`llama-3.3-70b-versatile`) for Arabic translations and conceptual breakdown.
 
+## ⚙️ Configuration
+
+To protect your API Key, this project uses a `config.js` file which is **ignored by Git**.
+
+1. Copy `config.example.js` and rename it to `config.js`.
+2. Open `config.js` and replace `'YOUR_GROQ_API_KEY_HERE'` with your actual [Groq API Key](https://console.groq.com/keys).
+3. Save the file. The app will now load your key automatically.
+
 ## 🚀 How to Run Locally
 
 ### Using Python (Easiest)
